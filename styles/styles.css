@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-background text-primary selection:bg-selection selection:text-background antialiased;
+  }
+
+  h1 {
+    @apply font-medium;
+  }
+  h2 {
+    @apply font-medium;
+  }
+
+  h3 {
+    @apply font-medium text-tertiary;
+  }
+
+  p {
+    @apply text-secondary leading-[1.65];
+  }
+
+  a {
+    @apply text-primary underline underline-offset-[3px] transition duration-200 ease-in-out;
+    text-decoration-color: rgba(115, 115, 115, 0.52);
+    text-decoration-thickness: 1px;
+  }
+  a:hover {
+    text-decoration-color: rgba(139, 147, 161, 0.72);
+  }
+
+  ul {
+    @apply my-2 ml-4 list-disc text-secondary;
+  }
+
+  code {
+    @apply px-1 py-0.5 bg-code rounded-sm text-sm;
+  }
+
+  button {
+    @apply bg-transparent text-primary;
+  }
+}
+
+@layer components {
+  .career-separator {
+    width: 357px;
+    height: 2px;
+    background-image:
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424),
+      linear-gradient(#242424, #242424);
+    background-size:
+      110px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px,
+      2px 2px;
+    background-position:
+      0 0,
+      112px 0,
+      117px 0,
+      123px 0,
+      130px 0,
+      138px 0,
+      147px 0,
+      157px 0,
+      168px 0,
+      180px 0,
+      193px 0,
+      207px 0,
+      222px 0,
+      238px 0,
+      255px 0,
+      273px 0,
+      292px 0,
+      312px 0,
+      333px 0,
+      355px 0;
+    background-repeat: no-repeat;
+  }
+}
