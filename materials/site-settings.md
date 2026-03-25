@@ -16,7 +16,7 @@
 ## Resume File
 
 ### Current resume file
-- `GerasimenkoS-product-cv.docx`
+- `GerasimenkoS-product-cv.pdf`
 
 ### Location
 - stored inside `materials/`
@@ -26,7 +26,7 @@
 
 ### Resume behavior
 - clicking `Resume` should trigger direct file download
-- current preferred file is `.docx`
+- current preferred file is `.pdf`
 
 ---
 

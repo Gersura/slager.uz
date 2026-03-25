@@ -8,7 +8,7 @@ import { getSiteSettings } from "@/lib/siteSettings"
 const HomePageEn = ({ content, settings }) => {
   return (
     <Layout>
-      <SEO title="Slava Gerasimenko" description={content.role} />
+      <SEO title="Slava Gerasimenko" description="Product Manager" />
 
       <div className="max-w-[737px] pb-8 pt-12 md:pt-20">
         <section className="flex flex-col gap-[22px]">

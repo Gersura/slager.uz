@@ -2,7 +2,7 @@ import Head from "next/head"
 
 export default function SEO({
   title = "Slava Gerasimenko",
-  description = "Product Manager focused on growth, activation, and product experience.",
+  description = "Product Manager",
 }) {
   return (
     <Head>
