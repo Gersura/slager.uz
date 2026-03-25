@@ -9,7 +9,7 @@
     "@next/mdx": "^13.2.4",
     "@vercel/analytics": "^0.1.4",
     "autoprefixer": "^10.4.14",
-    "cross-env": "^7.0.3",
+    "cross-env": "^10.1.0",
     "date-fns": "^2.29.3",
     "dotenv": "^16.0.2",
     "gray-matter": "^4.0.3",
