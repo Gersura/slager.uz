@@ -2,7 +2,7 @@ const fs = require("fs")
 const path = require("path")
 
 const siteRoot = process.cwd()
-const materialsDir = path.join(siteRoot, "..", "..", "materials")
+const materialsDir = path.join(siteRoot, "materials")
 const settingsPath = path.join(materialsDir, "site-settings.md")
 const settingsSource = fs.readFileSync(settingsPath, "utf8")
 const match = settingsSource.match(/### Current resume file[\s\S]*?- `([^\n]+)`/)
