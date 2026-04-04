@@ -24,7 +24,7 @@
     "tailwindcss": "^3.2.7"
   },
   "devDependencies": {
-    "prettier": "2.8.4"
+    "prettier": "3.8.1"
   },
   "keywords": [],
   "license": "",
